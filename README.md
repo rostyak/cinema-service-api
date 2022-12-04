@@ -4,7 +4,7 @@ API service for cinema management written on DRF
 ### Installing using Github
 Install PostgreSQL and create db
 
-```
+```shell
 git clone https://github.com/shurushku/cinema-API.git
 git checkout develop
 python -m venv venv
@@ -22,7 +22,7 @@ python manage.py runserver
 ### Run with docker
 Docker should be installed
 
-```
+```shell
 docker-compose build
 docker-compose up
 ```
