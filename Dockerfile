@@ -1,4 +1,4 @@
-FROM python:3.10.4-slim-buster
+FROM python:3.10-slim-buster
 LABEL maintainer = "rostik.nikss@gmail.com"
 
 ENV PYTHONUNBUFFERED 1
